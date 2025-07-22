@@ -16,7 +16,7 @@ return {
       functions = { italic = false },
       comments = { italic = false },
       keywords = { italic = false, bold = true }
-  }
+  },
     vim.cmd("colorscheme tokyonight")
   end,
 }
