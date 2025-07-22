@@ -4,6 +4,9 @@ return {
   lazy = false,
   opts = {
     style = "storm",
+    styles = {
+      italics = false
+    }
   },
   config = function()
     vim.cmd("colorscheme tokyonight")
