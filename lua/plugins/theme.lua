@@ -5,7 +5,7 @@ return {
   opts = {
     style = "storm",
     styles = {
-      italics = false
+      italic = false
     }
   },
   config = function()
