@@ -2,15 +2,21 @@ return {
   "folke/tokyonight.nvim",
   priority = 1000,
   lazy = false,
-  opts = {
-    style = "storm",
-    styles = {
-      functions = {},
-      comments = {},
-      keywords = {}
-    }
+  -- opts = {
+    -- style = "storm",
+    -- styles = {
+      -- functions = {},
+      -- comments = {},
+      -- keywords = {}
+    -- } -- being overridden for some reason
   },
   config = function()
+    style = "storm",
+    styles = {
+      functions = { italic = false },
+      comments = { italic = false },
+      keywords = { italic = false, bold = true }
+  }
     vim.cmd("colorscheme tokyonight")
   end,
 }
