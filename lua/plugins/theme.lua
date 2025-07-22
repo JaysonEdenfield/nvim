@@ -5,9 +5,9 @@ return {
   opts = {
     style = "storm",
     styles = {
-      functions = { italic = false },
-      comments = { italic = false },
-      keywords = { italic = false }
+      functions = {},
+      comments = {},
+      keywords = {}
     }
   },
   config = function()
