@@ -9,7 +9,7 @@ return {
       -- comments = {},
       -- keywords = {}
     -- } -- being overridden for some reason
-  },
+  -- },
   config = function()
     style = "storm",
     styles = {
